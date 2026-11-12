@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is the plain black vintage steam locomotive pulling three plain dark carriages in <Picture 1>; the whole train is plain, matte black and unmarked, and keeps this plain look the whole time.
+<Picture 1> is the first frame of [Shot 1].
+<Video 1> is the source video for the camera path, the timing and the framing only; its grey shapes are placeholders for the real things in <Picture 1>; the dark block with carriages is <Subject 1>, the row of pillars is the stone viaduct and the near column is a pine trunk.
+
+summary:
+[keyframe completion + reference generation] A 5-second travel film shot: the camera trucks sideways alongside <Subject 1> crossing a stone viaduct in misty highlands, following <Video 1>.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+<Video 1>: fully_preserved - the camera path, the timing and the framing.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: an overcast morning in a misty highland valley. <Subject 1> crosses a long stone arch viaduct from right to left, seen exactly side-on, the locomotive leading on the left with a thick white plume of steam trailing back over the carriages. Emerald grass and slate-grey mountains with low cloud behind, one soft shaft of sunlight on the far slope, a dark pine trunk close to the camera at the left edge.
+From the first frame to 5 seconds the camera trucks sideways to the left, parallel to the viaduct, at a little less than the train's speed, so the locomotive moves slowly across the frame from the left third towards the left edge while the stone arches below slide past and the near pine trunk passes in the foreground. The truck is continuous and steady. It happens once and does not repeat.
+The steam plume rolls and streams back over the carriages, the wheels and rods turn steadily, the train keeps a constant speed. Muted emerald, slate and grey, soft overcast light, damp air.
+
+overall_soundscape:
+The rhythmic chuff and clatter of a steam locomotive on the viaduct, wind in the valley, a distant whistle.
+
+non_diegetic_music:
+N/A

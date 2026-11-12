@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is the small weathered log cabin in <Picture 1>: snow-heavy roof, one small square window glowing warm orange, a thin line of chimney smoke; it keeps this shape and this one warm window the whole time.
+<Picture 1> is the first frame of [Shot 1].
+<Video 1> is the source video for the camera path, the timing and the framing only; its grey shapes are placeholders for the real things in <Picture 1>; the box with the bright square is <Subject 1>, the thin columns are pine trunks and the far blocks are the mountains.
+
+summary:
+[keyframe completion + reference generation] A 5-second winter thriller shot: a slow pull-out from <Subject 1> in a blizzard at the end of blue hour until it is small in a vast valley, following <Video 1>.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+<Video 1>: fully_preserved - the camera path, the timing and the framing.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: almost night, the last minutes of blue hour during a blizzard. <Subject 1> stands alone in deep snow, a little right of centre, its one window glowing warm orange, the only warm light in the scene; everything else is deep navy-blue darkness, the snow lit only by the dim cold sky and the window spill. Snow is driven sideways by the wind in soft streaks, drifts pile against the log walls, dark pines stand at the edges and the faint shapes of high mountains loom behind the falling snow.
+From the first frame to 5 seconds the camera pulls back slowly and steadily along the snow and rises a little, passing between dark pine trunks, until <Subject 1> is small in the lower middle of a vast white-blue valley under the mountains, its window a single warm point. The pull-out is continuous and eased. It happens once and does not repeat.
+The snow keeps driving sideways the whole time, the chimney smoke bends in the wind, the window glow stays warm and steady. Dark, moody, deep navy shadows, crisp frost on the logs, desolate and quiet.
+
+overall_soundscape:
+A howling blizzard wind, snow hissing over the drifts, a faint crackle of the fire inside.
+
+non_diegetic_music:
+N/A

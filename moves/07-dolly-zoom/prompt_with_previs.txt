@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is the woman rock climber in <Picture 1>: a red hardshell jacket, a plain white climbing helmet, a harness with metal carabiners, a coiled rope over one shoulder, dark hair tied back, a lean windburnt face; she keeps this face and these clothes the whole time.
+<Picture 1> is the first frame of [Shot 1].
+<Video 1> is the source video for the camera path, the timing and the framing only; its grey shapes are placeholders for the real things in <Picture 1>; the capsule is <Subject 1>, the tall block on the left is the rock wall, the slim block is the low rock fin beside her and the far columns are the granite spires.
+
+summary:
+[keyframe completion + reference generation] A 5-second mountain thriller shot: a dolly zoom, the vertigo effect, on <Subject 1> on a narrow granite ledge above a vast drop, following <Video 1>.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+<Video 1>: fully_preserved - the camera path, the timing and the framing.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: <Subject 1> stands on a narrow granite ledge close to the sheer grey rock wall on the left, seen from the knees up, looking down to the side into the drop. Beyond her the cliff falls away into a deep glacial valley: jagged grey granite spires on the far side with snow in their gullies, a thin pale river far below. Cold overcast daylight, soft and even; grey-blue colours, her red jacket the only warm colour.
+From 0.25 to 4.6 seconds the camera performs a dolly zoom, the vertigo effect: it dollies straight back away from her at slow speed while the lens zooms in at exactly the same rate, so she and the rock wall beside her stay exactly the same size in the frame while the same granite spires behind her swell and loom larger and larger, to about one and a half times their size. The twin pointed spires to the right of her head are the same spires from the first frame to the last and keep their shapes; only their size changes. The dolly zoom is continuous and eased. It happens once and does not repeat.
+Wind moves loose strands of her hair and the end of the rope; her chest rises with one slow breath. Natural skin texture, sharp focus on her face.
+
+overall_soundscape:
+Strong wind across the rock, the rope creaking against the carabiners, her slow breath.
+
+non_diegetic_music:
+N/A

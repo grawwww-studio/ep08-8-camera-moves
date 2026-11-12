@@ -1,0 +1,1024 @@
+{
+ "_criteria": {
+  "written": "2026-11-10T01:53:27Z, before any night number was computed (review/h3_metrics_night.json did not exist; the measurement was still waiting for RAM). Fixed in advance at the G1 skeptic's request; never moved.",
+  "followed": "a take FOLLOWED its previs when cam_follow >= 0.70 (mean correlation of the pan x / pan y / log-zoom paths vs the previs over all 124 f, axes where the previs moves >= 0.02) AND its dominant axis moves in the same direction as the previs. Amplitude is reported, not part of the criterion (overshoot is a finding, not a failure). Words-only twins are scored against the same previs path with the same rule.",
+  "w7_dolly_zoom": "w7 counts as followed only if the shot's written decision rule passes: her size within +-10 % of frame 0 AND the background swells >= +30 % on a feature shared with frame 0. The global path cannot express a dolly zoom.",
+  "tie": "previs vs words-only per move: |cam_follow(previs take) - cam_follow(words-only twin)| < 0.10 is a TIE; otherwise the higher follow wins. If both fail the followed rule, the move is 'neither' whatever the gap.",
+  "counts": "n_previs = production takes that FOLLOWED; n_words = words-only twins that FOLLOWED (same rule, same 8 moves). First takes only (the retry is reported apart, never swapped into n_previs).",
+  "overshoot": "cam_amp of the 8 production takes and their median; > 1 = H3 moved more than the previs.",
+  "stage": "every previs-vs-words comparison is raw H3 vs raw H3 (h3/night/*.mp4), never Wan."
+ },
+ "w1p": {
+  "cam_follow": 0.92,
+  "cam_amp": 1.88,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 0.87,
+   "pan_y": 0.9,
+   "log_zoom": 1.0
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": true,
+  "previs_net": [
+   -0.057,
+   0.144,
+   0.306
+  ],
+  "take_net": [
+   -0.207,
+   0.271,
+   0.347
+  ],
+  "previs_range": {
+   "pan_x": 0.057,
+   "pan_y": 0.144,
+   "log_zoom": 0.306
+  },
+  "take_range": {
+   "pan_x": 0.207,
+   "pan_y": 0.271,
+   "log_zoom": 0.347
+  },
+  "previs_t10_50_90": [
+   16,
+   66,
+   113
+  ],
+  "take_t10_50_90": [
+   10,
+   59,
+   110
+  ],
+  "timing_offset_f": [
+   -6,
+   -7,
+   -3
+  ],
+  "followed": true,
+  "dominant_axis_amp": 1.13
+ },
+ "w2p": {
+  "cam_follow": 0.86,
+  "cam_amp": 0.38,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 0.82,
+   "pan_y": 1.0,
+   "log_zoom": 0.76
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.083,
+   1.322,
+   -0.153
+  ],
+  "take_net": [
+   -0.01,
+   1.922,
+   -0.011
+  ],
+  "previs_range": {
+   "pan_x": 0.135,
+   "pan_y": 1.322,
+   "log_zoom": 0.24
+  },
+  "take_range": {
+   "pan_x": 0.051,
+   "pan_y": 1.922,
+   "log_zoom": 0.016
+  },
+  "previs_t10_50_90": [
+   11,
+   55,
+   107
+  ],
+  "take_t10_50_90": [
+   10,
+   50,
+   96
+  ],
+  "timing_offset_f": [
+   -1,
+   -5,
+   -11
+  ],
+  "followed": true,
+  "dominant_axis_amp": 1.45
+ },
+ "w3p": {
+  "cam_follow": 0.85,
+  "cam_amp": 1.32,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 1.0,
+   "pan_y": 0.54,
+   "log_zoom": 0.99
+  },
+  "dominant_axis": "pan_x",
+  "dominant_same_direction": true,
+  "previs_net": [
+   -0.325,
+   0.146,
+   0.295
+  ],
+  "take_net": [
+   -0.712,
+   0.097,
+   0.388
+  ],
+  "previs_range": {
+   "pan_x": 0.325,
+   "pan_y": 0.146,
+   "log_zoom": 0.295
+  },
+  "take_range": {
+   "pan_x": 0.712,
+   "pan_y": 0.12,
+   "log_zoom": 0.388
+  },
+  "previs_t10_50_90": [
+   10,
+   47,
+   108
+  ],
+  "take_t10_50_90": [
+   10,
+   47,
+   106
+  ],
+  "timing_offset_f": [
+   0,
+   0,
+   -2
+  ],
+  "followed": true,
+  "dominant_axis_amp": 2.19
+ },
+ "w4p": {
+  "cam_follow": 0.89,
+  "cam_amp": 0.75,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 0.76,
+   "pan_y": 0.95,
+   "log_zoom": 0.94
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.508,
+   0.43,
+   -1.124
+  ],
+  "take_net": [
+   0.173,
+   0.525,
+   -0.847
+  ],
+  "previs_range": {
+   "pan_x": 0.508,
+   "pan_y": 0.43,
+   "log_zoom": 1.124
+  },
+  "take_range": {
+   "pan_x": 0.254,
+   "pan_y": 0.526,
+   "log_zoom": 0.847
+  },
+  "previs_t10_50_90": [
+   10,
+   57,
+   108
+  ],
+  "take_t10_50_90": [
+   27,
+   83,
+   107
+  ],
+  "timing_offset_f": [
+   17,
+   26,
+   -1
+  ],
+  "followed": true,
+  "dominant_axis_amp": 0.75
+ },
+ "w5p": {
+  "cam_follow": -0.28,
+  "cam_amp": 1.74,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 0.83,
+   "pan_y": -0.66,
+   "log_zoom": -1.0
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": false,
+  "previs_net": [
+   0.137,
+   -0.037,
+   0.169
+  ],
+  "take_net": [
+   0.141,
+   0.118,
+   -0.288
+  ],
+  "previs_range": {
+   "pan_x": 0.137,
+   "pan_y": 0.042,
+   "log_zoom": 0.169
+  },
+  "take_range": {
+   "pan_x": 0.184,
+   "pan_y": 0.189,
+   "log_zoom": 0.294
+  },
+  "previs_t10_50_90": [
+   14,
+   55,
+   96
+  ],
+  "take_t10_50_90": [
+   16,
+   55,
+   89
+  ],
+  "timing_offset_f": null,
+  "followed": false,
+  "dominant_axis_amp": 1.74
+ },
+ "w6p": {
+  "cam_follow": 0.01,
+  "cam_amp": 1.03,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": null,
+   "pan_y": 1.0,
+   "log_zoom": -0.98
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.019,
+   0.611,
+   -0.083
+  ],
+  "take_net": [
+   -0.069,
+   0.791,
+   0.064
+  ],
+  "previs_range": {
+   "pan_x": 0.019,
+   "pan_y": 0.611,
+   "log_zoom": 0.083
+  },
+  "take_range": {
+   "pan_x": 0.069,
+   "pan_y": 0.791,
+   "log_zoom": 0.064
+  },
+  "previs_t10_50_90": [
+   12,
+   57,
+   110
+  ],
+  "take_t10_50_90": [
+   11,
+   51,
+   106
+  ],
+  "timing_offset_f": [
+   -1,
+   -6,
+   -4
+  ],
+  "followed": false,
+  "dominant_axis_amp": 1.29
+ },
+ "w7p": {
+  "cam_follow": -0.32,
+  "cam_amp": 1.5,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 0.99,
+   "pan_y": -0.96,
+   "log_zoom": -1.0
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": false,
+  "previs_net": [
+   -0.193,
+   -0.273,
+   0.716
+  ],
+  "take_net": [
+   -0.436,
+   0.408,
+   -0.266
+  ],
+  "previs_range": {
+   "pan_x": 0.193,
+   "pan_y": 0.273,
+   "log_zoom": 0.716
+  },
+  "take_range": {
+   "pan_x": 0.436,
+   "pan_y": 0.408,
+   "log_zoom": 0.266
+  },
+  "previs_t10_50_90": [
+   29,
+   67,
+   105
+  ],
+  "take_t10_50_90": [
+   18,
+   69,
+   107
+  ],
+  "timing_offset_f": null,
+  "her_shoulder_px_f0_f60_f123": [
+   186.2,
+   159.2,
+   102.6
+  ],
+  "her_scale_f0_f123": -0.449,
+  "her_scale_minmax": [
+   -0.449,
+   0.0
+  ],
+  "bg_scale_f0_f60": -0.137,
+  "bg_scale_f0_f123": -0.214,
+  "her_frames_missing": 0,
+  "followed": false,
+  "dominant_axis_amp": 0.37
+ },
+ "w8p": {
+  "cam_follow": 0.92,
+  "cam_amp": 3.82,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": 0.93,
+   "pan_y": 0.93,
+   "log_zoom": 0.92
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   -0.041,
+   0.137,
+   0.084
+  ],
+  "take_net": [
+   -0.452,
+   0.393,
+   0.32
+  ],
+  "previs_range": {
+   "pan_x": 0.041,
+   "pan_y": 0.137,
+   "log_zoom": 0.084
+  },
+  "take_range": {
+   "pan_x": 0.452,
+   "pan_y": 0.408,
+   "log_zoom": 0.32
+  },
+  "previs_t10_50_90": [
+   9,
+   54,
+   107
+  ],
+  "take_t10_50_90": [
+   5,
+   24,
+   61
+  ],
+  "timing_offset_f": [
+   -4,
+   -30,
+   -46
+  ],
+  "followed": true,
+  "dominant_axis_amp": 2.98
+ },
+ "w1w": {
+  "cam_follow": 0.77,
+  "cam_amp": 1.68,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 0.83,
+   "pan_y": 0.5,
+   "log_zoom": 0.99
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": true,
+  "previs_net": [
+   -0.057,
+   0.144,
+   0.306
+  ],
+  "take_net": [
+   -0.212,
+   0.152,
+   0.372
+  ],
+  "previs_range": {
+   "pan_x": 0.057,
+   "pan_y": 0.144,
+   "log_zoom": 0.306
+  },
+  "take_range": {
+   "pan_x": 0.236,
+   "pan_y": 0.242,
+   "log_zoom": 0.372
+  },
+  "previs_t10_50_90": [
+   16,
+   66,
+   113
+  ],
+  "take_t10_50_90": [
+   10,
+   50,
+   109
+  ],
+  "timing_offset_f": [
+   -6,
+   -16,
+   -4
+  ],
+  "followed": true,
+  "dominant_axis_amp": 1.22
+ },
+ "w2w": {
+  "cam_follow": 0.88,
+  "cam_amp": 0.4,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 0.85,
+   "pan_y": 1.0,
+   "log_zoom": 0.78
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.083,
+   1.322,
+   -0.153
+  ],
+  "take_net": [
+   -0.01,
+   1.981,
+   -0.022
+  ],
+  "previs_range": {
+   "pan_x": 0.135,
+   "pan_y": 1.322,
+   "log_zoom": 0.24
+  },
+  "take_range": {
+   "pan_x": 0.054,
+   "pan_y": 1.981,
+   "log_zoom": 0.027
+  },
+  "previs_t10_50_90": [
+   11,
+   55,
+   107
+  ],
+  "take_t10_50_90": [
+   12,
+   52,
+   91
+  ],
+  "timing_offset_f": [
+   1,
+   -3,
+   -16
+  ],
+  "followed": true,
+  "dominant_axis_amp": 1.5
+ },
+ "w3w": {
+  "cam_follow": 0.56,
+  "cam_amp": 2.06,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 1.0,
+   "pan_y": -0.3,
+   "log_zoom": 0.98
+  },
+  "dominant_axis": "pan_x",
+  "dominant_same_direction": true,
+  "previs_net": [
+   -0.325,
+   0.146,
+   0.295
+  ],
+  "take_net": [
+   -0.851,
+   0.019,
+   0.607
+  ],
+  "previs_range": {
+   "pan_x": 0.325,
+   "pan_y": 0.146,
+   "log_zoom": 0.295
+  },
+  "take_range": {
+   "pan_x": 0.851,
+   "pan_y": 0.104,
+   "log_zoom": 0.607
+  },
+  "previs_t10_50_90": [
+   10,
+   47,
+   108
+  ],
+  "take_t10_50_90": [
+   11,
+   50,
+   110
+  ],
+  "timing_offset_f": [
+   1,
+   3,
+   2
+  ],
+  "followed": false,
+  "dominant_axis_amp": 2.62
+ },
+ "w4w": {
+  "cam_follow": 0.73,
+  "cam_amp": 0.77,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 0.36,
+   "pan_y": 0.95,
+   "log_zoom": 0.89
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.508,
+   0.43,
+   -1.124
+  ],
+  "take_net": [
+   0.134,
+   0.46,
+   -0.867
+  ],
+  "previs_range": {
+   "pan_x": 0.508,
+   "pan_y": 0.43,
+   "log_zoom": 1.124
+  },
+  "take_range": {
+   "pan_x": 0.303,
+   "pan_y": 0.489,
+   "log_zoom": 0.867
+  },
+  "previs_t10_50_90": [
+   10,
+   57,
+   108
+  ],
+  "take_t10_50_90": [
+   46,
+   93,
+   114
+  ],
+  "timing_offset_f": [
+   36,
+   36,
+   6
+  ],
+  "followed": true,
+  "dominant_axis_amp": 0.77
+ },
+ "w5w": {
+  "cam_follow": 0.09,
+  "cam_amp": 2.81,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 0.89,
+   "pan_y": 0.3,
+   "log_zoom": -0.92
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": false,
+  "previs_net": [
+   0.137,
+   -0.037,
+   0.169
+  ],
+  "take_net": [
+   0.35,
+   -0.029,
+   -0.228
+  ],
+  "previs_range": {
+   "pan_x": 0.137,
+   "pan_y": 0.042,
+   "log_zoom": 0.169
+  },
+  "take_range": {
+   "pan_x": 0.384,
+   "pan_y": 0.234,
+   "log_zoom": 0.249
+  },
+  "previs_t10_50_90": [
+   14,
+   55,
+   96
+  ],
+  "take_t10_50_90": [
+   9,
+   35,
+   58
+  ],
+  "timing_offset_f": null,
+  "followed": false,
+  "dominant_axis_amp": 1.47
+ },
+ "w6w": {
+  "cam_follow": -0.01,
+  "cam_amp": 6.44,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": null,
+   "pan_y": 0.95,
+   "log_zoom": -0.97
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.019,
+   0.611,
+   -0.083
+  ],
+  "take_net": [
+   -0.518,
+   0.334,
+   1.023
+  ],
+  "previs_range": {
+   "pan_x": 0.019,
+   "pan_y": 0.611,
+   "log_zoom": 0.083
+  },
+  "take_range": {
+   "pan_x": 0.518,
+   "pan_y": 0.334,
+   "log_zoom": 1.023
+  },
+  "previs_t10_50_90": [
+   12,
+   57,
+   110
+  ],
+  "take_t10_50_90": [
+   6,
+   29,
+   82
+  ],
+  "timing_offset_f": [
+   -6,
+   -28,
+   -28
+  ],
+  "followed": false,
+  "dominant_axis_amp": 0.55
+ },
+ "w7w": {
+  "cam_follow": -0.32,
+  "cam_amp": 1.68,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 0.99,
+   "pan_y": -0.95,
+   "log_zoom": -1.0
+  },
+  "dominant_axis": "log_zoom",
+  "dominant_same_direction": false,
+  "previs_net": [
+   -0.193,
+   -0.273,
+   0.716
+  ],
+  "take_net": [
+   -0.572,
+   0.458,
+   -0.27
+  ],
+  "previs_range": {
+   "pan_x": 0.193,
+   "pan_y": 0.273,
+   "log_zoom": 0.716
+  },
+  "take_range": {
+   "pan_x": 0.572,
+   "pan_y": 0.458,
+   "log_zoom": 0.272
+  },
+  "previs_t10_50_90": [
+   29,
+   67,
+   105
+  ],
+  "take_t10_50_90": [
+   17,
+   59,
+   94
+  ],
+  "timing_offset_f": null,
+  "her_shoulder_px_f0_f60_f123": [
+   187.0,
+   123.0,
+   14.0
+  ],
+  "her_scale_f0_f123": -0.925,
+  "her_scale_minmax": [
+   -0.925,
+   0.0
+  ],
+  "bg_scale_f0_f60": -0.198,
+  "bg_scale_f0_f123": -0.29,
+  "her_frames_missing": 0,
+  "followed": false,
+  "dominant_axis_amp": 0.38
+ },
+ "w8w": {
+  "cam_follow": 0.91,
+  "cam_amp": 3.53,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": true,
+  "follow_per_axis": {
+   "pan_x": 0.91,
+   "pan_y": 0.88,
+   "log_zoom": 0.95
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   -0.041,
+   0.137,
+   0.084
+  ],
+  "take_net": [
+   -0.438,
+   0.354,
+   0.296
+  ],
+  "previs_range": {
+   "pan_x": 0.041,
+   "pan_y": 0.137,
+   "log_zoom": 0.084
+  },
+  "take_range": {
+   "pan_x": 0.438,
+   "pan_y": 0.4,
+   "log_zoom": 0.296
+  },
+  "previs_t10_50_90": [
+   9,
+   54,
+   107
+  ],
+  "take_t10_50_90": [
+   5,
+   22,
+   47
+  ],
+  "timing_offset_f": [
+   -4,
+   -32,
+   -60
+  ],
+  "followed": true,
+  "dominant_axis_amp": 2.92
+ },
+ "_w7_rule": {
+  "w7p": {
+   "pass": false,
+   "helmet_px_f0_f40_f80_f123": [
+    161,
+    170,
+    181,
+    187
+   ],
+   "helmet_change_f0_f123": 0.16,
+   "bg": "twin spires redrawn (new peaks, snow field, fan-like streaks low right from ~f96); tracker on the background right of her: -0.21 (f0->f123), so no measurable swell on a shared feature",
+   "method": "helmet width read by eye on full 1152x640 frames with a 40 px grid (review/night/w7p_head_grid.png); background from measure_h3_tests.py --night",
+   "verdict": "fails both halves of the rule (her +16 % > 10 %; no shared-feature swell) -> layered path per the shot decision rule"
+  },
+  "w7w": {
+   "pass": false,
+   "her_shoulder_px_f0_f60_f123": [
+    187.0,
+    123.0,
+    14.0
+   ],
+   "verdict": "she drifts out of frame left by f123 (red-jacket width 187 -> 14 px); background redrawn as in w7p"
+  }
+ },
+ "_summary": {
+  "w1": {
+   "move": "push-in",
+   "winner": "previs",
+   "gap": 0.15,
+   "previs_followed": true,
+   "words_followed": true,
+   "line": "The previs take follows the planned path more closely."
+  },
+  "w2": {
+   "move": "tilt",
+   "winner": "tie",
+   "gap": -0.02,
+   "previs_followed": true,
+   "words_followed": true,
+   "line": "Words and previs follow the path about equally (gap under 0.10)."
+  },
+  "w3": {
+   "move": "orbit",
+   "winner": "previs",
+   "gap": 0.29,
+   "previs_followed": true,
+   "words_followed": false,
+   "line": "The previs take follows the planned path more closely."
+  },
+  "w4": {
+   "move": "pull-out",
+   "winner": "previs",
+   "gap": 0.16,
+   "previs_followed": true,
+   "words_followed": true,
+   "line": "The previs take follows the planned path more closely."
+  },
+  "w5": {
+   "move": "truck",
+   "winner": "neither",
+   "gap": -0.37,
+   "previs_followed": false,
+   "words_followed": false,
+   "line": "Neither take follows the planned path."
+  },
+  "w6": {
+   "move": "pedestal",
+   "winner": "neither",
+   "gap": 0.02,
+   "previs_followed": false,
+   "words_followed": false,
+   "line": "Neither take follows the planned path."
+  },
+  "w7": {
+   "move": "dolly zoom",
+   "winner": "neither",
+   "gap": null,
+   "previs_followed": false,
+   "words_followed": false,
+   "line": "Neither take follows the planned path."
+  },
+  "w8": {
+   "move": "crane-up",
+   "winner": "tie",
+   "gap": 0.01,
+   "previs_followed": true,
+   "words_followed": true,
+   "line": "Words and previs follow the path about equally (gap under 0.10)."
+  }
+ },
+ "_counts": {
+  "n_previs": 5,
+  "n_words": 4,
+  "of": 8,
+  "amp_production": [
+   1.88,
+   0.38,
+   1.32,
+   0.75,
+   1.74,
+   1.03,
+   1.5,
+   3.82
+  ],
+  "amp_median": 1.41,
+  "dominant_axis_amp_production": [
+   1.13,
+   1.45,
+   2.19,
+   0.75,
+   1.74,
+   1.29,
+   0.37,
+   2.98
+  ],
+  "dominant_axis_amp_median_followed": 1.45,
+  "note_secondary": "dominant_axis_amp (take range / previs range on the previs's biggest axis) was added at 02:10Z after the first look; cam_amp stays the pre-registered measure",
+  "rule": "followed = cam_follow >= 0.7 and the dominant axis in the previs direction; w7 by its written rule; tie = gap < 0.1"
+ },
+ "w6r": {
+  "cam_follow": 1.0,
+  "cam_amp": 2.76,
+  "frames": 124,
+  "previs_frames": 124,
+  "n": 124,
+  "words_only": false,
+  "follow_per_axis": {
+   "pan_x": null,
+   "pan_y": 1.0,
+   "log_zoom": null
+  },
+  "dominant_axis": "pan_y",
+  "dominant_same_direction": true,
+  "previs_net": [
+   0.003,
+   0.29,
+   -0.014
+  ],
+  "take_net": [
+   -0.045,
+   0.801,
+   0.02
+  ],
+  "previs_range": {
+   "pan_x": 0.004,
+   "pan_y": 0.29,
+   "log_zoom": 0.014
+  },
+  "take_range": {
+   "pan_x": 0.045,
+   "pan_y": 0.801,
+   "log_zoom": 0.02
+  },
+  "previs_t10_50_90": [
+   10,
+   53,
+   108
+  ],
+  "take_t10_50_90": [
+   10,
+   48,
+   103
+  ],
+  "timing_offset_f": [
+   0,
+   -5,
+   -5
+  ],
+  "followed": true,
+  "dominant_axis_amp": 2.76
+ }
+}

@@ -1,0 +1,23 @@
+subject_definitions:
+<Subject 1> is the explorer in <Picture 1>, seen from behind: a man in a sweat-dark khaki shirt, a canvas backpack and a worn brimmed hat. <Subject 2> is the colossal carved stone face in <Picture 2>: grey-green stone covered in moss and roots, eyes closed, serene, rising out of the jungle canopy high above the stone steps. <Picture 2> is the top of the same scene, far above the frame of <Picture 1>.
+<Picture 1> is the first frame of [Shot 1]. <Picture 2> is the reveal reference described above.
+
+summary:
+[keyframe completion] A 5-second adventure film shot: the camera stays in place and tilts up from <Subject 1> at the foot of the jungle steps to <Subject 2> high above.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Subject 2>: fully_preserved - the stone face as in <Picture 2>.
+<Picture 1>: fully_preserved - the opening frame.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: a dense tropical jungle at mid morning. <Subject 1> stands still at the foot of broad moss-covered stone steps that climb away between giant buttressed tree roots and hanging vines, seen from behind, close to the camera. Thick humid haze, warm golden god rays slanting through the canopy from the upper right, green-gold palette, wet leaves glistening, dust and pollen floating in the light.
+From the first frame to 5 seconds the camera stays in the same place and tilts up steadily, about forty degrees: past the explorer's hat, up the long flight of mossy steps, through the haze and the god rays, until <Subject 2>, the enormous carved stone face from <Picture 2>, rises into the frame from the top and settles in the upper middle, far bigger than the trees. The tilt is continuous and eased at both ends. It happens once and does not repeat.
+<Subject 1> stays still at the bottom and leaves the frame as the camera tilts up. The god rays and the floating pollen keep drifting, leaves stir a little; the stone face is still and calm, its moss and roots exactly as in <Picture 2>.
+
+overall_soundscape:
+Jungle birds and insects, water dripping from leaves, a low wind through the canopy.
+
+non_diegetic_music:
+N/A

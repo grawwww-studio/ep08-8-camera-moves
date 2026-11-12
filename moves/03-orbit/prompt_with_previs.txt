@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is the parked black early-1970s two-door coupe in <Picture 1>: deep gloss black paint, chrome trim, a plain grille and plain wheels; it keeps this exact shape, paint and trim the whole time.
+<Picture 1> is the first frame of [Shot 1].
+<Video 1> is the source video for the camera path, the timing and the framing only; its grey shapes are placeholders for the real things in <Picture 1>; the long box is <Subject 1>, the tall walls are the alley walls and the bright bars and rings are the neon tubes.
+
+summary:
+[keyframe completion + reference generation] A 5-second neo-noir car shot: the camera orbits slowly around <Subject 1> along its flank in a wet neon alley at night, following <Video 1>.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+<Video 1>: fully_preserved - the camera path, the timing and the framing.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: <Subject 1> stands parked right of centre in a narrow back alley at night after rain, three-quarter front view from waist height, nose to the right, open wet ground on the left of the frame. The black asphalt is soaked and mirrors everything. The walls carry neon tubes in two plain forms only, round rings and long straight horizontal bars, in hot magenta, electric cyan and a little amber, their colours smeared in long reflections on the wet ground. White steam rises steadily from a street grate behind the car.
+From the first frame to 5 seconds the camera makes one slow, continuous orbit around <Subject 1> at the same distance and the same height, travelling from the car's front-left corner along its left flank towards its rear, about thirty degrees in all, always looking at the car and keeping the whole car inside the frame. The car stays parked and still; only the camera moves. The orbit is smooth and eased at both ends. It happens once and does not repeat.
+As the camera turns, the neon reflections slide across the curved black bodywork and travel along the chrome trim, highlights move over the bonnet and the windscreen, and the alley walls behind pass with clear parallax. The alley stays open and clear between the camera and the car. Steam drifts and curls; a few last rain drops catch the neon.
+
+overall_soundscape:
+Light rain dripping from gutters, the hiss of the steam grate, a distant city hum, a faint electric buzz from the neon.
+
+non_diegetic_music:
+N/A

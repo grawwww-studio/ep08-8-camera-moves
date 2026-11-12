@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is the lone samurai in <Picture 1>: a weathered man of about forty with short dark stubble, a wide woven straw hat, a faded indigo hakama and a dark kimono soaked through, a katana in a black scabbard across his knees under both hands; he keeps this face, hat and clothes the whole time.
+<Picture 1> is the first frame of [Shot 1].
+<Video 1> is the source video for the camera path, the timing and the framing only; its grey shapes are placeholders for the real things in <Picture 1>; the kneeling block with the flat disc is <Subject 1> and his hat.
+
+summary:
+[keyframe completion + reference generation] A 5-second samurai film shot: a slow push-in on <Subject 1> kneeling in night rain before a temple gate, following <Video 1>.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+<Video 1>: fully_preserved - the camera path, the timing and the framing.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: night, heavy rain. <Subject 1> kneels on dark wet stone flagstones in front of a closed wooden temple gate, left of centre, head bowed so the brim of his straw hat hides his eyes. One paper lantern hangs high behind him and backlights the falling rain into thousands of bright silver streaks against blue-black darkness; a warm amber rim of light runs along his hat and shoulders, cold blue fill from the left. The wet stone has a dull sheen and the rain falls straight down into the dark.
+From the first frame to 5 seconds the camera pushes in slowly and steadily towards <Subject 1>, from a medium shot of the kneeling man to his chest and hat, the brim filling the upper part of the frame. At 1.5 seconds he slowly lifts his head a little, and under the brim his eyes appear and look straight ahead, calm and hard. He holds that look to the end. The push is continuous and eased. It happens once and does not repeat.
+Rain keeps falling the whole time and drips in thin streams from the brim of his hat; his hands rest still on the scabbard; mist drifts in the gate's timbers. Deep shadows, low-key night photography, the face lit only by the lantern's rim and the soft blue fill.
+
+overall_soundscape:
+Heavy rain on stone and on the straw hat, water dripping from the gate's eaves, a distant roll of thunder.
+
+non_diegetic_music:
+N/A

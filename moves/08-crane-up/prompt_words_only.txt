@@ -1,0 +1,22 @@
+subject_definitions:
+<Subject 1> is the caravan in <Picture 1>: six camels with robed riders walking in single file along the dune crest; the same six camels and riders the whole time.
+<Picture 1> is the first frame of [Shot 1].
+
+summary:
+[keyframe completion] A 5-second desert epic shot: a crane-up from low on a dune slope that rises over the sand to reveal the vast dune sea around <Subject 1>.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: low on a sand dune slope at golden hour, the sun low on the right. In the foreground sharp wind-carved ripples catch the raking light, each edged with a bright line and a deep shadow, and a few grains blow off the near ridge. On the crest of the next tall dune <Subject 1> walks slowly from left to right in single file, small in the frame, long shadows stretching across the sand; a pale warm haze on the horizon with a distant flat-topped mesa.
+From the first frame to 5 seconds the camera cranes up in one continuous, slow rise, from about one metre above the sand to several metres high, easing out but still rising gently at the end, tilting down a little to keep <Subject 1> in frame. As it rises the near ripples fall away below the frame and the view opens out: wave after wave of ochre and apricot dunes, each with a lit crest and a deep shadow side, stretch to the horizon. The crane rise happens once and does not repeat.
+<Subject 1> keeps walking at the same slow pace with a steady swaying gait, the riders' robes move in the wind, and the caravan becomes a small line of figures in an immense desert.
+
+overall_soundscape:
+A steady desert wind, sand hissing over the ridge, the soft thud of camel feet and a bell far away.
+
+non_diegetic_music:
+N/A

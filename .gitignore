@@ -1,0 +1,8 @@
+# Generated clips, audio and model weights are not part of this repo.
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.safetensors
+*.gguf
+*.bak*

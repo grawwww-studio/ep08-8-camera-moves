@@ -1,0 +1,9 @@
+move_no,move,seed,follow_previs,follow_words_only,followed_previs,followed_words_only,winner,MAIN_AXIS_amp_previs,MAIN_AXIS_amp_words_only,WHOLE_CAMERA_PATH_ALL_AXES_cam_amp_previs
+1,push-in,777001,0.92,0.77,True,True,previs,1.13,1.22,1.88
+2,tilt,777001,0.86,0.88,True,True,tie,1.45,1.5,0.38
+3,orbit,777001,0.85,0.56,True,False,previs,2.19,2.62,1.32
+4,pull-out,777001,0.89,0.73,True,True,previs,0.75,0.77,0.75
+5,truck,777001,-0.28,0.09,False,False,neither,1.74,1.47,1.74
+6,pedestal,777001,0.01,-0.01,False,False,neither,1.29,0.55,1.03
+7,dolly-zoom,777001,-0.32,-0.32,False,False,neither,0.37,0.38,1.5
+8,crane-up,777001,0.92,0.91,True,True,tie,2.98,2.92,3.82

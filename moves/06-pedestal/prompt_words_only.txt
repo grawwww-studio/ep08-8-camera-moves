@@ -1,0 +1,22 @@
+subject_definitions:
+<Subject 1> is the huge plain white rocket at rest on the launch pad in <Picture 1>, engine bells dark, the hull plain white and unmarked; <Subject 2> is the red-brown steel lattice service tower beside it. Both keep this look the whole time.
+<Picture 1> is the first frame of [Shot 1].
+
+summary:
+[keyframe completion] A 5-second space film shot: a pedestal up, the camera rising straight up alongside <Subject 1> at rest on the pad at night.
+
+retention_analysis:
+<Subject 1>: fully_preserved - shape, colours and details as in <Picture 1>.
+<Picture 1>: fully_preserved - the opening frame.
+
+detailed_description:
+Live-action, real-life speed, a real 35 mm film photograph look with fine grain and natural texture; one fixed light from <Picture 1> the whole time and the light does not change.
+[Shot 1] From <Picture 1>: night on the launch pad before launch, the rocket at rest and silent. <Subject 1> stands on its massive steel launch mount above the dark flame trench, a little right of centre; thick white cryogenic vapour pours down the cold hull and rolls slowly across the concrete deck. <Subject 2> stands close on the left with a swing arm reaching to the hull. Tall floodlight towers light the scene cold white and pale orange against a pure black sky.
+From the first frame to 5 seconds the camera rises straight up and stays perfectly level, as if on a lift: the launch mount and the vapour sink out of the bottom of the frame, the floors of <Subject 2> pass one by one, and the hull of <Subject 1> slides down through the frame band by band. The rise is continuous and steady. It happens once and does not repeat.
+The engines stay off; only cold vapour drifts and falls from the hull and curls over the deck. Sharp highlights on frosted metal, deep shadows in the lattice, black sky.
+
+overall_soundscape:
+The low hiss of venting cryogenic vapour, metal ticking in the cold, a distant pump hum.
+
+non_diegetic_music:
+N/A
