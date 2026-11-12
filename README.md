@@ -2,7 +2,7 @@
 
 Material for the EP08 cold open of the Grawwww Studio channel.
 
-- Video: VIDEO_URL_SLOT
+- Video: https://youtu.be/psEtMEct_SA
 
 ## What the video tested
 
